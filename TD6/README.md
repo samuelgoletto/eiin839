@@ -1,12 +1,10 @@
 # Test du serveur SOAP :
 
-Pour tester le serveur SOAP, il faut lancer la solution dans le dossier **MathsLibrarySOAP** exécuter le fichier **Program.cs** situé dans le dossier **ClientSOAP**
+Pour tester le serveur SOAP, il faut lancer la solution **RenduFinal.sln** et suivre les instructions dans le terminal
 
 # Test du serveur REST :
 
-Pour tester le serveur REST, il faut lancer la solution dans le dossier **MathsLibraryREST**,exécuter le fichier **Program.cs** situé dans le dossier **ClientSOAP** et exécuter via Postman les requêtes suivantes
-
-Le format de réponse des requêtes est du JSON
+Pour tester le serveur REST, il faut garder le terminal ouvert précédemment et exécuter via Postman les requêtes suivantes (le format de réponse des requêtes est du JSON)
 
 **Adresses de la requête GET à utiliser sur Postman pour tester le serveur REST :**
 
