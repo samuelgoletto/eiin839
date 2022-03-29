@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading;
 using System.Net.Sockets;
 using System.IO;
+using System.Net;
+
 
 namespace Echo
 {
@@ -54,10 +56,26 @@ namespace Echo
 
             while (true)
             {
-
                 string str = reader.ReadString();
-                Console.WriteLine(str);
-                writer.Write(str);
+                string[] subs = str.Split(' ');
+                if (subs[0].Equals("GET"))
+                {
+                    var url = "http://" + subs[1];
+
+                    var request = WebRequest.Create(url);
+                    request.Method = "GET";
+
+                    using var webResponse = request.GetResponse();
+                    using var webStream = webResponse.GetResponseStream();
+
+                    using var myReader = new StreamReader(webStream);
+                    var data = myReader.ReadToEnd();
+
+                    Console.WriteLine(data);
+                } else
+                {
+                    Console.WriteLine(str);
+                }
             }
         }
 
