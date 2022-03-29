@@ -23,3 +23,12 @@ Soustraction de 7-5 (on attend 2 en retour)
 Division de 7/5 (on attend 1.4 en retour)
 
     http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/Div?x=7&y=5
+
+# REST Web Services - Questions
+
+Question 4 :
+En testant différents ResponseFormat, le format de la réponse du serveur change (json ou xml)
+En testant différents BodyStyle, on décide si on wrap on non les requêtes et les réponses (les 2, aucune des 2, seulement une des 2)
+ 
+Question 5 :
+En changeant une méthode de l'une des OperationContract sur POST, il faut changer le type de requête sur Postman pour du POST et saisir un body.
