@@ -4,7 +4,7 @@ Pour tester le serveur SOAP, il faut lancer la solution dans le dossier **MathsL
 
 # Test du serveur REST :
 
-Pour tester le serveur REST, il faut lancer la solution dans le dossier **MathsLibraryREST** et exécuter via Postman les requêtes suivantes
+Pour tester le serveur REST, il faut lancer la solution dans le dossier **MathsLibraryREST**,exécuter le fichier **Program.cs** situé dans le dossier **ClientSOAP** et exécuter via Postman les requêtes suivantes
 
 Le format de réponse des requêtes est du JSON
 
