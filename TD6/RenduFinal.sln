@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSOAP", "src\ClientSOA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibraryREST", "src\MathsLibraryREST\MathsLibrary\MathsLibraryREST.csproj", "{C9CC3FBD-DEFE-473F-970B-ECB3895ED01C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrarySOAP", "src\MathsLibrarySOAP\MathsLibrary\MathsLibrary\MathsLibrarySOAP.csproj", "{2EF280D9-2193-4551-9800-688043BDE863}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrarySOAP", "src\MathsLibrarySOAP\MathsLibrary\MathsLibrarySOAP.csproj", "{2EF280D9-2193-4551-9800-688043BDE863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
